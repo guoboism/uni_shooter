@@ -1,4 +1,4 @@
-package uni;
+package uni.data;
 
 /**
  * Override this to create your parser
@@ -15,7 +15,7 @@ class UniParser
 	
 	//final
 	public function parseDataStr(String data):Void {
-			
+		
 		var xml:Xml = Xml.parse(data);
 		
 		
